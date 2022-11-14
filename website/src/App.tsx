@@ -3,16 +3,14 @@ import styles from "./styles";
 import {
   Navbar,
   Billing,
-  Business,
-  Button,
+  Business,  
   CardDeal,
   Clients,
-  CTA,
-  FeedBackCard,
-  GetStarted,
+  CTA,  
   Hero,
   Stats,
-  Testimonials
+  Testimonials,
+  Footer
 } from "./components"
 
 function App() {
@@ -39,7 +37,7 @@ function App() {
           <Testimonials />
           <Clients />
           <CTA />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     </div>
